@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<title>Viewer</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+	<div>
+	<canvas id="myCanvas" width="800" height="600"></canvas>
+	</div>
+	<div><button onclick ="play ();"> <img src="images/play.png"> </button>
+	<button onclick ="pause ();"> <img src="images/stop.png"> </button>
+	<button onclick ="volumeup ();"> <img src="images/plus.png"> </button>
+	<button onclick ="volumedown ();"> <img src="images/subtract.png"> </button>
+	</div>
+	<div><button onclick ="AddProp ();"> <img src="images/plus.png"> </button>
+	<button onclick ="RemoveProp ();"> <img src="images/subtract.png"> </button>Click here to add and remove some random Pineapples!</div>
+	<div><input type="checkbox" onclick="TogglePineapple(this)" checked = "true"> Pinapple! </input> 
+		<input type="checkbox" onclick="ToggleCritterOne(this)" checked = "true"> Octopus! </input> 
+		<input type="checkbox" onclick="ToggleCritterTwo(this)" checked = "true"> Narwhal! </input> 
+		<input type="checkbox" onclick="ToggleCritterThree(this)" checked = "true"> Submarine! </input> </div>
+</body>
+	
+<script src="js/utilities.js"></script>
+<script src="js/main.js"></script>
+
+</html>

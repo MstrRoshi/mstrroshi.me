@@ -1,0 +1,63 @@
+/* Yes, this is blank. That's OK! You're gonna fill this with AWESOME. US14 */
+
+html {
+	background-image: url(background.jpg);
+	background-repeat:repeat
+	width: 86%;
+	height: 86%;
+	color: #FFFFFF;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif
+	
+}
+
+body {
+	width: 761px;
+	margin-left: auto;
+    margin-right: auto;
+	border-color:#D7D5D6;
+	border-style: solid;
+	border-width: 10px;
+	padding: 50px;
+	background-color:#666666;
+}
+
+h1 { color:#CCCECB
+}
+
+#nonav {
+	text-indent: 10px;
+	list-style-type: square;
+	font-weight: bolder;
+}
+
+p {
+	font-weight: bolder;
+}
+
+#nav {
+	list-style-type: none;
+	background-color: #CCC;
+	border:  solid #967097;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: bolder;
+	float: left;
+	margin-right: 18px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-collapse: collapse; 
+}
+
+
+a { text-decoration:none;
+	color:#6ea4dc;
+	font-weight:bold;
+}
+
+img { margin:auto;
+}
+	
+	
+
+
